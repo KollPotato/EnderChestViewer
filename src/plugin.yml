@@ -1,0 +1,13 @@
+main: org.kollpotato.app
+name: EnderChestViewer
+author: KollPotato
+version: 1
+api-version: "1.17"
+
+commands:
+  enderchest:
+    description: Opens an ender chest of another user if provided an argument
+    usage: /enderchest <PlayerName>
+    aliases: ["ec"]
+    permission: ecv.enderchest
+    
